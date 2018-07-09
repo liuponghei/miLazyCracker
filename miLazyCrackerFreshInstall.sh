@@ -14,7 +14,7 @@ sudo apt-get install git libnfc-bin autoconf libnfc-dev
     git clean -dfx
     # tested against commit 9d9f01fb
     autoreconf -vfi
-    ./configure
+    ./configure  --prefix=/usr
     make
     sudo make install
 )
